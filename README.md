@@ -1,0 +1,48 @@
+## Requirements for Seating-Arrangement-Algorithm
+A Ruby program to arrange the seating for the Airline Passengers
+
+A program that helps to allocate seats to the passengers in a flight based on the following input and rules.
+
+Rules for seating:
+
+• Always seat passengers starting from the front row to back, starting from the left to the right
+• Fill aisle seats first followed by window seats followed by center seats (any order in center seats)
+
+Input to the program will be:
+
+1. a 2D array that represents the rows and columns [[3,4], [4,5], [2,3], [3,4]]. This 2D array is just an example. The input to the program will be a dynamic 2D array.
+2. Number of passengers waiting in queue.
+
+
+See below for an example input and the respective seating arrangement based on the input.
+
+A 2D array that represents the rows and columns [[3,2], [4,3], [2,3], [3,4]] (Please see the attached PDF document - 'Seating_2D_array.pdf')
+
+If there were 30 passengers from then the seating output will be as in the attachment 'Seating_Result.pdf'
+
+Below are the points to be noted:
+
+1. The Logic / Data structure / Algorithm used to successfully complete the programming challenge
+2. The elegance of the code, modularity and readability
+3. A VISUAL output that is printed (on the screen, in a console or exported to a file etc.) in way that is easy to read, identify the aisle, middle and window rows and has clear seating plan and passenger number.
+4. Testability, TDD and test cases
+
+
+
+## Installation
+
+1. Clone repo: `git clone https://github.com/kumarbindal/kumar-ror-competency-test.git`
+2. Change into directory: `cd Seating-Arrangement-Algo`
+3. Installed RVM latest version
+
+## For Execution of Algorithm
+1. Type `irb`
+2. require './seating_arrangement'
+3. Type `SeatingArrangement.seating_arrangement([[3,2], [4,3], [2,3], [3,4]], 30)`
+   Here first argument will be in format of 2D Array that represent the row and column.
+   Second argument is no of passenger in waiting queue that will be integer
+
+## For Execution of Rspec
+1. gem install rspec
+2. Run the command from project path `rspec --format documentation`
+
