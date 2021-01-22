@@ -31,7 +31,7 @@ Below are the points to be noted:
 
 ## Installation
 
-1. Clone repo: `git clone https://github.com/kumarbindal/kumar-ror-competency-test.git`
+1. Clone repo: `https://github.com/augustpuja/Seating-Arrangement-Algo.git`
 2. Change into directory: `cd Seating-Arrangement-Algo`
 3. Installed RVM latest version
 
